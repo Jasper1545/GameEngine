@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"out": "./engine/out/engine.js",
+		"declaration": true,
+		"experimentalDecorators":true
+	},
+	"files": [
+		"src/core/math.ts",
+		"src/core/res.ts",
+		"src/core/ticker.ts",
+		"src/core/touchEvent.ts",
+		"src/core/displaylist.ts",
+		"src/platforms/browser/driver.ts"
+	]
+}
